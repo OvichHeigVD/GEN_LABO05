@@ -1,6 +1,6 @@
 #include <iostream>
-
 #include "Customer.h"
+#include <gtest/gtest.h>
 
 int main() {
 
@@ -12,4 +12,10 @@ int main() {
     std::cout << customer.statement() << std::endl;
 
     return 0;
+}
+
+
+TEST(CustomerStatement, CustomerClassTest) {
+
+    ASSERT_EQ("hello", "hello");
 }

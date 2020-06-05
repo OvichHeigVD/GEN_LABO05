@@ -52,5 +52,6 @@ string Customer::statement()
     result << "Amount owed is " << totalAmount << "\n";
     result << "You earned " << frequentRenterPoints
            << " frequent renter points";
+
     return result.str();
 }
